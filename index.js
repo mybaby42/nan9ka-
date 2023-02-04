@@ -108,15 +108,15 @@ for (const file of player) {
 Discord.Constants.DefaultOptions.ws.properties.$browser = "Discord Android";
 client.on("ready", () => {
    function YousamPower() {
-    let vazyiat = ["dnd","idle","online"] // online | dnd | idle | offline
+    let vazyiat = ["dnd"]//,"idle","online"] // online | dnd | idle | offline
     let godrat = Math.floor(Math.random() * vazyiat.length)
    client.user.setPresence({
      status: vazyiat[godrat] })
-}; setInterval(YousamPower, 3000)
+}; setInterval(YousamPower, 2500)
    function srza() {
-    let sezar = [`${prefix}help`, `${prefix}play` , `${client.guilds.cache.size} Servers` ]
+    let sezar = [`Nan9ka!`, `Nan9ka?`]// , `Deadsoul#7941` , `${client.guilds.cache.size} Servers` ]
     let Power = Math.floor(Math.random() * sezar.length);
-   client.user.setActivity(sezar[Power], {type: "WATCHING"});
+   client.user.setActivity(sezar[Power], {type: "PLAYING"});
         }; setInterval(srza, 3000)
   console.log(`${client.user.tag} Is Now Online :)`)
 });
